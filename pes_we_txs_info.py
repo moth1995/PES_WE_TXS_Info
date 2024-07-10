@@ -7,6 +7,7 @@ def main():
     total_arg = len(sys.argv)
     if total_arg != 2:
         print("Invalid quantity of elements, you just need to give the path for your afs file")
+        input("Press enter to exit")
         return
 
     file_path = Path(str(sys.argv[1]))
